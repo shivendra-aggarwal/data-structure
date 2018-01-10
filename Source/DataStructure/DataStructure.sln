@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{B07F44D2-8757-4309-8C1D-FC05CDCF6C7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{77CE4A9F-B6AC-468A-BC3E-A38D2130B95C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-binarytree-slides.pdf = ..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-binarytree-slides.pdf
+		..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-hashtable-slides.pdf = ..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-hashtable-slides.pdf
+		..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-linked-list-slides.pdf = ..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-linked-list-slides.pdf
+		..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-stack-slides.pdf = ..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\ads-stack-slides.pdf
+		..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\algods-queue-slides.pdf = ..\..\..\..\..\Users\aggarws1\Downloads\ads-part1\materials\algods-queue-slides.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{F34F7EC3-8A98-4A84-B99C-95FFA8B39951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList.Solution", "LinkedList.Solution\LinkedList.Solution.csproj", "{A6FCF3F9-683E-4602-9821-49855AB533AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList.Solution.Tests", "LinkedList.Solution.Tests\LinkedList.Solution.Tests.csproj", "{EFCAD106-054D-4A63-9940-569F7EC664DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{81E124DC-769C-4D84-911E-0C005BDF5815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6FCF3F9-683E-4602-9821-49855AB533AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FCF3F9-683E-4602-9821-49855AB533AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FCF3F9-683E-4602-9821-49855AB533AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FCF3F9-683E-4602-9821-49855AB533AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFCAD106-054D-4A63-9940-569F7EC664DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCAD106-054D-4A63-9940-569F7EC664DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCAD106-054D-4A63-9940-569F7EC664DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCAD106-054D-4A63-9940-569F7EC664DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F34F7EC3-8A98-4A84-B99C-95FFA8B39951} = {B07F44D2-8757-4309-8C1D-FC05CDCF6C7D}
+		{A6FCF3F9-683E-4602-9821-49855AB533AE} = {F34F7EC3-8A98-4A84-B99C-95FFA8B39951}
+		{EFCAD106-054D-4A63-9940-569F7EC664DF} = {F34F7EC3-8A98-4A84-B99C-95FFA8B39951}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CED97CA-DAA9-4538-AB8B-8D72F987A740}
+	EndGlobalSection
+EndGlobal
